@@ -1,0 +1,68 @@
+body {
+  background-color: #22223b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
+
+h1, h2, h3, h4 {
+  color: #f2e9e4;
+}
+
+ul {
+  padding: 0;
+  line-height: 50px;
+  list-style-type: none;
+}
+
+p, li {
+  color: #c9ada7;
+}
+
+p {
+  line-height: 30px;
+}
+
+.button {
+  background-color: #c9ada7;
+  border-radius: 4px;
+  color: #22223b;
+  display: inline-flex;
+  font-weight: 600;
+  margin: 0px 5px 10px 0px;
+  min-width: max-content;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 80ms;
+  transition-property: background-color;
+}
+.button:hover {
+  background-color: #f2e9e4;
+}
+
+.indice {
+  color: #22223b;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 16px;
+  text-decoration: none;
+  transition-duration: 80ms;
+  transition-property: color;
+}
+.indice:hover {
+  color: #9a8C98;
+}
+
+#header {
+  background-color: #f2e9e4;
+  padding: 16px;
+}
+
+#home, #principais-habilidades, #outras-habilidades, #recomendacoes {
+  text-align: center;
+}
+
+#profile-picture {
+  border-radius: 100%;
+}
